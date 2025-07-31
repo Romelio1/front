@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>blog de lunita feliz</title> 
+    <style>
+        table, th, td {
+            border: 1px solid black;
+        }
+    </style> 
+</head>
+<body>
+    <!--tablas-->
+    <table style="width: 500px;">
+       <thead>
+         <tr>
+            <th>Nombre</th>
+            <th>Apellido</th>
+        </tr>
+       </thead>
+        <tbody>
+            <tr>
+            <td>romelio</td>
+            <td>sirpa</td>
+        </tr>
+         <tr>
+            <td>lunita</td>
+            <td>feliz</td>
+        </tr>
+         <tr>
+            <td>lunita</td>
+            <td>triste</td>
+        </tr>
+        </tbody>
+        <tfoot>
+            <td></td>
+            <td>lunita</td>
+        </tfoot>
+    </table>
+
+    <!--lista-->
+    <ul>
+        <li>elemento1</li>
+        <li>elemento2</li>
+    </ul>
+    <!--lista ordenada-->
+    <ol>
+        <li value="20">elemento1</li>
+        <li>elemento2</li>
+        <li>
+            <ol>
+                <li style="list-style-type: lower-roman;">sub elemento</li>
+                <li style="list-style-type: lower-roman;">sub elemento</li>
+            </ol>
+        </li>
+    </ol>
+
+
+
+    <form action="/formulario" method="post">
+        <label for="Nombre">Nombre</label>
+        <input value="lunita" type="text" id="Nombre" name="Nombre" placeholder="Nombre">
+        <br>
+        <label for="apellido">Apellido</label>
+        <input value="lunita feliz" type="text" id="apellido" name="apellido" placeholder="Apellido">
+        <br>
+        <label for="comentario">Comentario</label>
+        <textarea cols="50" rows="10" id="comentario" placeholder="Ingrese comentario" name="comentario"> lunita esta feliz</textarea>
+        <br>
+        <button type="button"><img src="img/images.jpg"  width="50">enviar</button>
+        <button type="reset">reset</button>
+        <button type="submit">submit</button>
+    </form>
+    <h1>lunita esta muy feliz</h1>
+    <img src="img/images.jpg" width="400" height="300">
+    <p>lunita esta muy triste por zero two y giro</p>
+    <p>lunita esta muy triste y feliz </p>
+    <hr>
+    <section> 
+        <h1>lunita feliz</h1>
+        <p>lunita <span style="color:rgb(22, 97, 97)"> esta</span> 
+            muy feliz <br>
+            por zero y giro</p>
+        <p>lunita esta muy triste</p>
+        <h2>lunita feliz</h2>
+    </section>
+    <!--comentario-->
+    <a target="_blank" href="http://www.google.com">ir a google</a>
+    <img src="" alt="">
+
+</body>
+</html>

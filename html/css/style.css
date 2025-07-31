@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  height: 100vh;
+  background: #0f0f23;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+}
+
+.gallery {
+  display: flex;
+  width: 90%;
+  height: 400px;
+  gap: 10px;
+}
+
+.option {
+  flex: 1;
+  border-radius: 20px;
+  background-image: var(--optionBackground);
+  background-size: cover;
+  background-position: center;
+  cursor: pointer;
+  position: relative;
+  transition: flex 0.5s ease-in-out;
+  display: flex;
+  align-items: flex-end;
+  overflow: hidden;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+  opacity: 0.6;
+}
+
+.option.active {
+  flex: 5;
+  opacity: 1;
+}
+
+.label {
+  background: rgba(0, 0, 0, 0.6);
+  width: 100%;
+  padding: 20px;
+  color: white;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  font-size: 14px;
+}
+
+.label .icon i {
+  font-size: 20px;
+}
+
+.main {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.sub {
+  font-size: 12px;
+  opacity: 0.7;
+}
